@@ -1,0 +1,12 @@
+main(){
+  String meinName = "Bennet";
+  print("mein Name ist $meinName!");//interpolation
+  
+  double komma = 14;
+  String komma1 = komma.toString();//Casting von double zu String
+  print(komma1);
+  
+  int lang = meinName.length;//length
+  print(lang);
+  print("Es ist $lang");//interpolation
+}
